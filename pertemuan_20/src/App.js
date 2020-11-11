@@ -1,14 +1,22 @@
+
 import './App.css';
-import Header from './Components/Header';
-import Hello from './Components/Hello';
-import Content from './Components/Content';
+import Card from './Components/Card';
+import {person} from './Utils/Person';
+ 
 
 function App() {
   return (
     <>
-      <Header />
-      <Hello />
-      <Content />
+      {person.map((item) =>{
+        return(
+          <Card
+            name={item.name}
+            institution={item.institution}
+            address={item.address}
+            phone={item.phone}
+          />
+        );
+      })}
     </>
   );
 };
