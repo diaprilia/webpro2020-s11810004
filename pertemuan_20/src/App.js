@@ -1,13 +1,13 @@
 
 import './App.css';
 import Card from './Components/Card';
-import {person} from './Utils/Person';
+import {Person} from './Utils/Person';
  
 
 function App() {
   return (
     <>
-      {person.map((item) =>{
+      {Person.map((item) =>{
         return(
           <Card
             name={item.name}
