@@ -1,4 +1,3 @@
-
 import './App.css';
 import Card from './Components/Card';
 import {Person} from './Utils/Person';
