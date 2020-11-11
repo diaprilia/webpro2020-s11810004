@@ -1,12 +1,12 @@
 import './App.css';
-import Card from './Components/Card';
-import {Person} from './Utils/Person';
+import Card from './Components/card';
+import {person} from './Utils/person';
  
 
 function App() {
   return (
     <>
-      {Person.map((item) =>{
+      {person.map((item) =>{
         return(
           <Card
             name={item.name}
