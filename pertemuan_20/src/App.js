@@ -54,9 +54,9 @@ return (
 const App = () => {
 const human = [
 {
-name: 'Kuririn',
+name: 'Nami',
 thumbnail:
-        'https://upload.wikimedia.org/wikipedia/pt/6/63/Kuririn_42311.png',
+        'https://upload.wikimedia.org/wikipedia/pt/https://www.deviantart.com/onepieceworldproject/art/One-Piece-Nami-5291880746/63/Kuririn_42311.png',
 power: 10
 },
 {
