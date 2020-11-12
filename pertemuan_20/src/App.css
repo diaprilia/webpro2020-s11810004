@@ -17,7 +17,7 @@
 } */
 
 body {
-  background: #c0ffee;
+  background: #ffa500;
   }
   .App {
   margin: 1em;
@@ -31,7 +31,7 @@ body {
   display: flex;
   flex: 1;
   align-items: center;
-  border: 0.25em solid #cacaca;
+  border: 0.25em solid #f0f8ff;
   margin-bottom: 1em;
   }
   .list-item-image-container {
